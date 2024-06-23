@@ -1,0 +1,12 @@
+{
+    "name": "Ansible Development Container",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [],
+    "postCreateCommand": "ansible --version",
+    "remoteUser": "vscode"
+}
